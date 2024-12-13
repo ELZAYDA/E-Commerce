@@ -1,5 +1,5 @@
 Nilura - E-Commerce for Clothes
-Nilura is an eCommerce platform for fashion and apparel, built as part of my graduation project for the Digital Egypt Pioneers Initiative (DEPI) using ASP.NET MVC.
+Nilura is an eCommerce platform for fashion and apparel, built as part of my graduation project using ASP.NET MVC.
 
 This platform provides a complete online shopping experience, from browsing to order management, all while leveraging modern web development practices to ensure scalability and maintainability.
 
