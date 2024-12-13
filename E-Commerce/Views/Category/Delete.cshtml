@@ -1,0 +1,78 @@
+﻿@model Category
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-danger text-white text-center py-3">
+                    <h2 class="mb-0">
+                        <i class="fas fa-exclamation-triangle me-2"></i>Delete Category
+                    </h2>
+                </div>
+                <form asp-action="Delete" method="post" class="needs-validation" novalidate>
+                    <div class="card-body p-4">
+                        <div class="alert alert-warning" role="alert">
+                            <i class="fas fa-info-circle me-2"></i>
+                            Are you sure you want to permanently delete this category?
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label fw-bold">Category Name</label>
+                            <input asp-for="Name" disabled class="form-control form-control-lg bg-light" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="ParentCategoryId" class="form-label fw-bold">Parent Category</label>
+                            <input asp-for="ParentCategoryId"
+                                   class="form-control form-control-lg bg-light"
+                                   type="text"
+                                   disabled
+                                   value="@(Model.ParentCategory?.Name ?? "No Parent Category")" />
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <button type="submit" class="btn btn-danger w-100 py-2">
+                                    <i class="fas fa-trash-alt me-2"></i>Confirm Delete
+                                </button>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <a asp-controller="Category"
+                                   asp-action="Index"
+                                   class="btn btn-outline-secondary w-100 py-2">
+                                    <i class="fas fa-arrow-left me-2"></i>Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f4f6f9;
+    }
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .card-header {
+        background: linear-gradient(to right, #dc3545, #c82333);
+    }
+    .btn-danger {
+        transition: all 0.3s ease;
+    }
+    .btn-danger:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(220,53,69,0.4);
+    }
+    .btn-outline-secondary:hover {
+        background-color: #6c757d;
+        color: white;
+    }
+</style>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

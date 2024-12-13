@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .manage-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .page-title {
+            color: #2d3748;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            border-bottom: 3px solid #4299e1;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        
+        .section-title {
+            color: #4a5568;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .divider {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 1.5rem 0;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .nav-section {
+            background-color: #f7fafc;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .main-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    @{
+        if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout != null)
+        {
+            Layout = parentLayout.ToString();
+        }
+        else
+        {
+            Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+        }
+    }
+    
+    <div class="manage-container">
+        <h1 class="page-title">Manage Your Account</h1>
+        
+        <div>
+            <h2 class="section-title">Change your account settings</h2>
+            <hr class="divider" />
+            
+            <div class="content-grid">
+                <div class="nav-section">
+                    <partial name="_ManageNav" />
+                </div>
+                <div class="main-content">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @RenderSection("Scripts", required: false)
+    }
+</body>
+</html>

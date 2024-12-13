@@ -1,0 +1,87 @@
+﻿@page
+@model PersonalDataModel
+@{
+    ViewData["Title"] = "Personal Data";
+    ViewData["ActivePage"] = ManageNavPages.PersonalData;
+}
+
+<div class="personal-data-container">
+    <div class="personal-data-card">
+        <div class="card-header">
+            <h3>@ViewData["Title"]</h3>
+        </div>
+
+        <p>Your account contains personal data that you have provided to us. This page allows you to download or delete that data.</p>
+        <p><strong>Deleting this data will permanently remove your account, and this action cannot be undone.</strong></p>
+
+        <form id="download-data" asp-page="DownloadPersonalData" method="post" class="form-action">
+            <button type="submit" class="btn-submit">Download Personal Data</button>
+        </form>
+
+        <form id="delete-data" asp-page="DeletePersonalData" method="post" class="form-action">
+            <button type="submit" class="btn-delete">Delete Personal Data</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .personal-data-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        background-color: #f4f6f9;
+    }
+
+    .personal-data-card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .card-header h3 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-action {
+        margin-top: 20px;
+    }
+
+    .btn-submit {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-submit:hover {
+        background-color: #0056b3;
+    }
+
+    .btn-delete {
+        width: 100%;
+        padding: 12px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        margin-top: 15px;
+    }
+
+    .btn-delete:hover {
+        background-color: #b02a37;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

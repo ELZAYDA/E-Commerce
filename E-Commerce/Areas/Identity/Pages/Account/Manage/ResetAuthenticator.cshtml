@@ -1,0 +1,90 @@
+﻿@page
+@model ResetAuthenticatorModel
+@{
+    ViewData["Title"] = "Reset authenticator key";
+    ViewData["ActivePage"] = ManageNavPages.TwoFactorAuthentication;
+}
+
+<div class="reset-authenticator-container">
+    <div class="reset-authenticator-card">
+        <div class="card-header">
+            <h3>@ViewData["Title"]</h3>
+        </div>
+
+        <partial name="_StatusMessage" for="StatusMessage" />
+
+        <div class="alert alert-warning" role="alert">
+            <p>
+                <span class="icon-warning"></span>
+                <strong>If you reset your authenticator key, your authenticator app will not work until you reconfigure it.</strong>
+            </p>
+            <p>
+                This process disables 2FA until you verify your authenticator app.
+                If you do not complete your authenticator app configuration, you may lose access to your account.
+            </p>
+        </div>
+
+        <form id="reset-authenticator-form" method="post" class="form-action">
+            <button id="reset-authenticator-button" class="btn-delete" type="submit">Reset authenticator key</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .reset-authenticator-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        background-color: #f4f6f9;
+    }
+
+    .reset-authenticator-card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .card-header h3 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .alert {
+        padding: 15px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    .alert-warning {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+
+    .form-action {
+        margin-top: 15px;
+    }
+
+    .btn-delete {
+        width: 100%;
+        padding: 12px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+    .btn-delete:hover {
+        background-color: #b02a37;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

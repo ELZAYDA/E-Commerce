@@ -1,0 +1,11 @@
+D:\E-Commerce-master\E-Commerce.Utility\bin\Debug\net8.0\E-Commerce.Utility.deps.json
+D:\E-Commerce-master\E-Commerce.Utility\bin\Debug\net8.0\E-Commerce.Utility.dll
+D:\E-Commerce-master\E-Commerce.Utility\bin\Debug\net8.0\E-Commerce.Utility.pdb
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.AssemblyInfoInputs.cache
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.AssemblyInfo.cs
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.csproj.CoreCompileInputs.cache
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.dll
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\refint\E-Commerce.Utility.dll
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\E-Commerce.Utility.pdb
+D:\E-Commerce-master\E-Commerce.Utility\obj\Debug\net8.0\ref\E-Commerce.Utility.dll

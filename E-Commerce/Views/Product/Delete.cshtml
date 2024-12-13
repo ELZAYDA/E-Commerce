@@ -1,0 +1,58 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-danger text-white text-center py-3">
+                    <h2 class="mb-0">
+                        <i class="fas fa-exclamation-triangle me-2"></i>Delete Product
+                    </h2>
+                </div>
+                <form asp-action="Delete" method="post" class="needs-validation" novalidate>
+                    <div class="card-body p-4">
+                        <div class="alert alert-warning" role="alert">
+                            <i class="fas fa-info-circle me-2"></i>
+                            Are you sure you want to permanently delete this product?
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label fw-bold">Product Name</label>
+                            <input asp-for="Name" disabled class="form-control form-control-lg bg-light" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Description" class="form-label fw-bold">Product Description</label>
+                            <input asp-for="Description" disabled class="form-control form-control-lg bg-light" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="CategoryId" class="form-label fw-bold">Product Category</label>
+                            <input asp-for="CategoryId" disabled class="form-control form-control-lg bg-light" value="@Model.Category.Name" />
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <button type="submit" class="btn btn-danger w-100 py-2">
+                                    <i class="fas fa-trash-alt me-2"></i>Confirm Delete
+                                </button>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <a asp-controller="Product" asp-action="Index" class="btn btn-outline-secondary w-100 py-2">
+                                    <i class="fas fa-arrow-left me-2"></i>Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

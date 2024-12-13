@@ -1,0 +1,142 @@
+﻿@model CategoryVM
+<div class="container-fluid category-upsert-container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-gradient-primary text-white text-center py-4">
+                    <h2 class="mb-0">
+                        <i class="fas fa-layer-group me-2"></i>
+                        @((Model.Category.Id == 0) ? "Create New Category" : "Update Category")
+                    </h2>
+                </div>
+                <form asp-action="Upsert" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                    <div class="card-body p-4">
+                        <input type="hidden" asp-for="Category.Id" />
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                        <div class="mb-4">
+                            <label asp-for="Category.Name" class="form-label">Category Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-tag"></i></span>
+                                <input asp-for="Category.Name"
+                                       class="form-control form-control-lg"
+                                       placeholder="Enter Category Name" />
+                            </div>
+                            <span asp-validation-for="Category.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Category.ImageUrl" class="form-label">Category Image</label>
+                            <div class="custom-file">
+                                <input type="file"
+                                       name="ImageFile"
+                                       class="form-control form-control-lg"
+                                       id="customFile"
+                                       onchange="updateFileName(this)" />
+                                <div class="invalid-feedback">Please choose an image.</div>
+                            </div>
+                            @if (!string.IsNullOrEmpty(Model.Category.ImageUrl))
+                            {
+                                <div class="mt-3 text-center">
+                                    <img src="@Model.Category.ImageUrl"
+                                         class="img-thumbnail"
+                                         style="max-height: 200px; width: auto;"
+                                         alt="Current Category Image" />
+                                </div>
+                            }
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Category.ParentCategoryId" class="form-label">Parent Category</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-sitemap"></i></span>
+                                <select asp-for="Category.ParentCategoryId"
+                                        class="form-select form-select-lg"
+                                        asp-items="Model.CategoryList">
+                                    <option value="">-- Select Parent Category --</option>
+                                </select>
+                            </div>
+                            <span asp-validation-for="Category.ParentCategoryId" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-between mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg flex-grow-1 me-md-2">
+                                <i class="fas @((Model.Category.Id == 0) ? "fa-plus-circle" : "fa-sync") me-2"></i>
+                                @((Model.Category.Id == 0) ? "Create Category" : "Update Category")
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-lg flex-grow-1">
+                                <i class="fas fa-arrow-left me-2"></i>Back to List
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .category-upsert-container {
+        background-color: #f4f6f9;
+        min-height: 100vh;
+        padding: 20px; /* Adding padding for better spacing */
+    }
+
+    .bg-gradient-primary {
+        background: linear-gradient(to right, #4e73de, #224abe);
+    }
+
+    .card {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .input-group-text {
+        background-color: #f8f9fa;
+        border-right: none;
+    }
+
+    .form-control, .form-select {
+        border-left: none;
+        box-shadow: none;
+    }
+
+    .form-control:focus, .form-select:focus {
+        border-color: #4e73de;
+        box-shadow: none;
+    }
+
+    .btn-primary {
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(78,115,222,0.4);
+    }
+
+    /* Adjusting image size */
+    .custom-file input[type="file"] {
+        max-width: 100%;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .form-select, .form-control {
+        font-size: 1.1rem;
+    }
+
+    
+</style>
+
+<script>
+    function updateFileName(input) {
+        var fileName = input.files[0]?.name || 'Choose file';
+        input.nextElementSibling.textContent = fileName;
+    }
+</script>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

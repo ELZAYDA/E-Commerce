@@ -1,0 +1,111 @@
+/* Reset and Base Styles */
+*[b-4yuo1jszy4] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body[b-4yuo1jszy4] {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+}
+
+a[b-4yuo1jszy4] {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover[b-4yuo1jszy4] {
+        color: #0056b3; /* Darker blue for hover */
+    }
+
+/* Navbar Styles */
+.navbar[b-4yuo1jszy4] {
+    background-color: #343a40; /* Dark background for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand[b-4yuo1jszy4] {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+.nav-link[b-4yuo1jszy4] {
+    color: #cfd1d4; /* Light gray for links */
+    padding: 15px;
+    transition: color 0.3s ease;
+}
+
+    .nav-link:hover[b-4yuo1jszy4] {
+        color: #fff; /* White on hover */
+    }
+
+.nav-pills .nav-link.active[b-4yuo1jszy4] {
+    background-color: #007bff; /* Active link background */
+    color: #fff; /* White text */
+}
+
+/* Button Styles */
+.btn-primary[b-4yuo1jszy4] {
+    background-color: #007bff; /* Primary color */
+    border-color: #007bff; /* Border color matches */
+    color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    .btn-primary:hover[b-4yuo1jszy4] {
+        background-color: #0056b3; /* Darker shade on hover */
+        border-color: #004085; /* Darker border */
+    }
+
+/* Footer Styles */
+.footer[b-4yuo1jszy4] {
+    background-color: #343a40; /* Match the navbar */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    .footer p[b-4yuo1jszy4] {
+        margin: 0;
+    }
+
+/* Card and Box Styles */
+.card[b-4yuo1jszy4] {
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-header[b-4yuo1jszy4] {
+    background-color: #007bff; /* Header color */
+    color: #fff; /* White text */
+    font-size: 1.25rem;
+}
+
+/* Utility Classes */
+.text-center[b-4yuo1jszy4] {
+    text-align: center;
+}
+
+.mb-3[b-4yuo1jszy4] {
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand[b-4yuo1jszy4] {
+        font-size: 1.5rem; /* Adjust brand size on smaller screens */
+    }
+
+    .footer[b-4yuo1jszy4] {
+        padding: 15px 0; /* Less padding on mobile */
+    }
+}

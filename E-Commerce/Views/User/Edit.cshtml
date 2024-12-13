@@ -1,0 +1,82 @@
+﻿@model User
+
+@{
+    SelectList RolesList = new SelectList(ViewBag.Roles, "Id", "Name");
+}
+
+<div class="container-fluid px-4 mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-gradient-primary d-flex justify-content-between align-items-center">
+            <h4 class="mb-0 text-white">
+                <i class="fas fa-edit me-2"></i>User Permissions
+            </h4>
+        </div>
+        <div class="card-body p-3">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger mb-2"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-2">
+                            <input type="hidden" asp-for="@Model.Id" />
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="mb-2 row p-1">
+                                <label asp-for="FullName" class="col-form-label col-sm-4">Full Name</label>
+                                <div class="col-sm-8">
+                                    <input asp-for="FullName" readonly class="form-control form-control-sm" />
+                                </div>
+                            </div>
+
+                            <div class="mb-2 row p-1">
+                                <label asp-for="Email" class="col-form-label col-sm-4">Email</label>
+                                <div class="col-sm-8">
+                                    <input asp-for="Email" readonly class="form-control form-control-sm" />
+                                </div>
+                            </div>
+
+                            <div class="mb-2 row p-1">
+                                <label asp-for="Role" class="col-form-label col-sm-4">Role</label>
+                                <div class="col-sm-8">
+                                    <select asp-for="Role" asp-items="RolesList" class="form-control form-control-sm">
+                                        <option value="0" selected>--Select Role--</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mb-2 text-end">
+                                <input type="submit" value="Update User Role" class="btn btn-success btn-sm" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    .bg-gradient-primary {
+        background: linear-gradient(to right, #4e73de, #224abe);
+    }
+
+    .form-control-sm {
+        font-size: 0.875rem; /* Smaller font size */
+        padding: 0.375rem 0.75rem; /* Reduced padding */
+    }
+
+    .btn-sm {
+        font-size: 0.875rem; /* Smaller font size */
+        padding: 6px 12px; /* Reduced button padding */
+    }
+
+    .col-form-label {
+        font-size: 0.875rem; /* Smaller label font size */
+    }
+</style>
+
+<!-- Optional: Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

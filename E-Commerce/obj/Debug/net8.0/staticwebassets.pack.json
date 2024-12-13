@@ -1,0 +1,673 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Commerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\E-Commerce.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\1950s_Whipcord_Work_Jacket-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\1950s_Whipcord_Work_Jacket-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\4e9c98c62a666fb51983e6ce40e2fef3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\4e9c98c62a666fb51983e6ce40e2fef3.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Accessories.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Accessories.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Backpack2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Backpack2.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\BlackSneakers-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\BlackSneakers-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\BlackSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\BlackSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Blazer.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Blazer.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Hoodie.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Hoodie.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif",
+      "PackagePath": "staticwebassets\\Images\\Category\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Jeans.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Jeans.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Man-jpg.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Man-jpg.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Men Court Vision Low Sneaker - Men's -Off White.jfif",
+      "PackagePath": "staticwebassets\\Images\\Category\\Men Court Vision Low Sneaker - Men's -Off White.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Men's Casual T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Men's Casual T-Shirt.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Men's Warm Fleece Full Zip Jacket, Lightweight Soft Coat For Winter Outdoor Recreation - Khaki _ XXXL(46-48).jfif",
+      "PackagePath": "staticwebassets\\Images\\Category\\Men's Warm Fleece Full Zip Jacket, Lightweight Soft Coat For Winter Outdoor Recreation - Khaki _ XXXL(46-48).jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Men.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Men.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Shorts-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Shorts-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Shorts.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Shorts.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\TSH003-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\TSH003-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\TSH003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\TSH003.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\WhiteSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\WhiteSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Women.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Women.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\Wrist_Watch1-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Wrist_Watch1-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Category\\polo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\polo.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\OK.jpg",
+      "PackagePath": "staticwebassets\\Images\\OK.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\1950s Whipcord Work Jacket.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\1950s Whipcord Work Jacket.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\4e9c98c62a666fb51983e6ce40e2fef3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\4e9c98c62a666fb51983e6ce40e2fef3.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Backpack2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Backpack2.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\BlackSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\BlackSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\GL1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\GL1.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\GL@.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\GL@.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\JCK001.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\JCK001.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\JCK002.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\JCK002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\JCK003.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\JCK003.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Men Court Vision Low Sneaker - Men's -Off White.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Men Court Vision Low Sneaker - Men's -Off White.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Men's Casual T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Men's Casual T-Shirt.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Men's Warm Fleece Full Zip Jacket, Lightweight Soft Coat For Winter Outdoor Recreation - Khaki _ XXXL(46-48).jfif",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Men's Warm Fleece Full Zip Jacket, Lightweight Soft Coat For Winter Outdoor Recreation - Khaki _ XXXL(46-48).jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Minimal Jacket (Black).jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Minimal Jacket (Black).jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\SHO001.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\SHO001.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\SHO002.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\SHO002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Sneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Sneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\TSH002.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\TSH002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\TSH003.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\TSH003.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\WhiteSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\WhiteSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Women's Jackets & Outerwear - Buck Mason- Modern American Classics.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Women's Jackets & Outerwear - Buck Mason- Modern American Classics.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Wrist Watch1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Wrist Watch1.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\Wrist Watct.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\Wrist Watct.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\mb.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\mb.jpeg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\nike.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\nike.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\top2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\top2.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\ProductItems\\top3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductItems\\top3.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\15.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\15.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\1950s Whipcord Work Jacket.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\1950s Whipcord Work Jacket.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Backpack.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Backpack.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\BlackSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\BlackSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\E-commerce Website for clothing activity diagram 2-1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\E-commerce Website for clothing activity diagram 2-1.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\INCERUN Men Shirt Solid Color 2023 Lapel Short Sleeve Korean Style Men Clothing Streetwear Summer Knitted Casual Shirts S-5XL - L _ Green.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\JCK001.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\JCK001.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\JCK002.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\JCK002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\JCK003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\JCK003.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Men Court Vision Low Sneaker - Men's -Off White.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\Men Court Vision Low Sneaker - Men's -Off White.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Men's Casual T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Men's Casual T-Shirt.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Men's Leather Jacket.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Men's Leather Jacket.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\SHO001.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\SHO001.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\SHO002.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\SHO002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Sneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Sneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Sunglasses.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\TSH002.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\TSH002.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\WhiteSneakers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\WhiteSneakers.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Wrist Watct.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Wrist Watct.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\Zapatos de vestir Derby al estilo Oxford con cordones para hombre - Black _ UK 9 _ Matt.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\Zapatos de vestir Derby al estilo Oxford con cordones para hombre - Black _ UK 9 _ Matt.jfif"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\apple-ipad-pro-11-inch--grey-1_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\apple-ipad-pro-11-inch--grey-1_1.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\nike.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\nike.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\polo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\polo.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\Products\\tops.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\tops.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\lawn_leaf2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lawn_leaf2.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\Images\\register-illustration.jpg",
+      "PackagePath": "staticwebassets\\Images\\register-illustration.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\css\\ProductIndex.css",
+      "PackagePath": "staticwebassets\\css\\ProductIndex.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\toastr.js\\toastr.css",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\toastr.js\\toastr.js.map",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.js.map"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\toastr.js\\toastr.min.css",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\E-Commerce-master\\E-Commerce\\wwwroot\\toastr.js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E-Commerce.props",
+      "PackagePath": "build\\E-Commerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E-Commerce.props",
+      "PackagePath": "buildMultiTargeting\\E-Commerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E-Commerce.props",
+      "PackagePath": "buildTransitive\\E-Commerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

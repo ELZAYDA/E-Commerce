@@ -1,0 +1,128 @@
+﻿@model ShoppingCartVM
+@{
+    ViewData["Title"] = "Order Summary";
+}
+<form method="post">
+    <input asp-for="@Model.Order.Id" hidden />
+    <br />
+    <div class="checkout-container px-4 py-5">
+        <div class="checkout-card shadow-lg border-0 rounded-lg overflow-hidden" style="border:10px;">
+            <div class="p-4 border-bottom">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="mb-0">Order Summary</h4>
+                    <a asp-action="Index" class="back-link text-muted">
+                        <i class="fas fa-arrow-left me-2"></i>Return to cart
+                    </a>
+                </div>
+                <div class="progress-bar mt-3">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+            <div class="card-body" style="padding:20px;max-width: 1200px;
+        margin: 3rem auto;
+        padding: 0 1.5rem;>
+                <div class="row">
+                    <!-- Shipping Details Section -->
+                    <div class="col-12 col-lg-6 pb-4">
+                        <h5 class="mb-4 text-primary">Shipping Information</h5>
+                        <div class="input-wrapper mb-3">
+                            <label class="floating-label">Full Name</label>
+                            <input asp-for="Order.Name" class="form-control custom-input" />
+                            <span asp-validation-for="Order.Name" class="text-danger"></span>
+                        </div>
+                        <div class="input-wrapper mb-3">
+                            <label class="floating-label">Phone Number</label>
+                            <input asp-for="Order.PhoneNumber" class="form-control custom-input" />
+                            <span asp-validation-for="Order.PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="input-wrapper mb-3">
+                            <label class="floating-label">Street Address</label>
+                            <input asp-for="Order.StreetAddress" class="form-control custom-input" />
+                            <span asp-validation-for="Order.StreetAddress" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="input-wrapper">
+                                    <label class="floating-label">City</label>
+                                    <input asp-for="Order.City" class="form-control custom-input" />
+                                    <span asp-validation-for="Order.City" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="input-wrapper">
+                                    <label class="floating-label">State</label>
+                                    <input asp-for="Order.State" class="form-control custom-input" />
+                                    <span asp-validation-for="Order.State" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="input-wrapper">
+                                    <label class="floating-label">ZIP Code</label>
+                                    <input asp-for="Order.PostalCode" class="form-control custom-input" />
+                                    <span asp-validation-for="Order.PostalCode" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Summary Section -->
+                    <div class="col-12 col-lg-5 offset-lg-1">
+                        <div class="bg-light p-4 rounded-3">
+                            <h5 class="text-primary mb-4">Order Summary</h5>
+                            <ul class="list-group mb-3">
+                                @foreach (var item in Model.ShoppingCartList)
+                                {
+                                    <li class="order-item d-flex justify-content-between align-items-center py-2">
+                                        <div>
+                                            <h6 class="mb-1">@item.ProductItem.SKU</h6>
+                                            <small class="text-muted">Quantity: @item.Quantity</small>
+                                        </div>
+                                        <span class="fw-bold text-muted">@((item.ProductItem.Price).ToString("C", new System.Globalization.CultureInfo("en-US")))</span>
+                                    </li>
+                                }
+
+                                <li class="order-item d-flex justify-content-between align-items-center bg-light rounded-lg shadow-sm py-3">
+                                    <small class="font-weight-bold text-info">Total (USD)</small>
+                                    <strong class="font-weight-bold text-info">@Model.Order.TotalPrice.ToString("C", new System.Globalization.CultureInfo("en-US"))</strong>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fas fa-truck text-primary me-3"></i>
+                                <div>
+                                    <small class="text-muted d-block">Estimated Delivery</small>
+                                    <span id="delivery-date" class="fw-bold"></span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="submit-btn btn btn-primary w-100 py-2">
+                                Place Order
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer with estimated arrival date -->
+            <div class="card-footer bg-dark text-white d-flex justify-content-between align-items-center py-4">
+                <p class="mb-0" style="font-size: 14px; padding-left:20px;">
+                    <i class="fas fa-calendar-day mr-2"></i> Estimate Arrival Date:
+                    @DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()
+                </p>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    // Calculate and display estimated delivery date range
+    const start = new Date();
+    start.setDate(start.getDate() + 7);
+    const end = new Date();
+    end.setDate(end.getDate() + 14);
+
+    const dateRange = `${start.toLocaleDateString()} - ${end.toLocaleDateString()}`;
+    document.getElementById('delivery-date').textContent = dateRange;
+</script>

@@ -1,0 +1,171 @@
+﻿@model ProductItem
+@{
+    ViewData["Title"] = "Details";
+}
+
+<form method="post" class="product-detail-container">
+    <input hidden asp-for="Id" />
+    <input hidden asp-for="ProductId" />
+
+    <div class="product-card" style="padding:10px;">
+        <div class="navigation-bar">
+            <a asp-controller="ProductItem" asp-action="Index" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Products</span>
+            </a>
+        </div>
+
+        <div class="product-content">
+            <div class="product-image-section">
+                <div class="image-container">
+                    <img src="@Model.ImageUrl" alt="@Model.Product?.Name" />
+                </div>
+            </div>
+
+            <div class="product-info-section">
+                <div class="product-header">
+                    <h1 class="product-title">@Model.Product?.Name</h1>
+                    <span class="product-category">SKU: @Model.SKU</span>
+                </div>
+
+                <div class="product-details">
+                    <div class="detail-item">
+                        Quantity in stock: <span>@Model.QuantityInStock</span>
+                    </div>
+                    <div class="price-tag">
+                        Price: @Model.Price.ToString("C", new System.Globalization.CultureInfo("en-US"))
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <a asp-controller="ProductItem" asp-action="Index" class="btn btn-dark border form-control">
+                    Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+
+<style>
+    body {
+        background-color: #f5f7fa;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #2d3436;
+        line-height: 1.5;
+    }
+
+    .product-detail-container {
+        max-width: 900px;
+        margin: 1.5rem auto;
+        padding: 0 1rem;
+    }
+
+    .product-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #edf2f7;
+    }
+
+    .back-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #64748b;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+        .back-button:hover {
+            color: #334155;
+        }
+
+    .product-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .product-image-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 1;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+    .product-info-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .product-header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .product-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        color: #1a202c;
+    }
+
+    .product-category {
+        display: inline-block;
+        background: #ebf4ff;
+        color: #3182ce;
+        padding: 0.4rem 0.8rem;
+        border-radius: 30px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        align-self: flex-start;
+    }
+
+    .product-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .detail-item {
+        font-size: 0.9rem;
+        color: #64748b;
+    }
+
+    .price-tag {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #047857;
+    }
+</style>
