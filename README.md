@@ -291,8 +291,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 📧 Email: ahmedelzayda19@gmail.com
-🔗 Project: github.com/ELZAYDA/E-Commerce
-- LinkedIn: [Ahmed Nabil](https://linkedin.com/in/ahmed-nabil)
+🔗 Project: https://github.com/ELZAYDA/E-Commerce/
+ LinkedIn: [Ahmed Nabil](https://linkedin.com/in/ahmed-nabil)
 
 
 <p align="center">
