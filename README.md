@@ -289,14 +289,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Ahmed Nabil** - Full Stack Developer
 
-- GitHub: [ELZAYDA](https://github.com/ELZAYDA)
-- LinkedIn: [Ahmed Nabil](https://linkedin.com/in/ahmed-nabil)
-- Email: ahmedelzayda19@gmail.com
 
----
+📧 Email: ahmedelzayda19@gmail.com
+🔗 Project: github.com/ELZAYDA/E-Commerce
+- LinkedIn: [Ahmed Nabil](https://linkedin.com/in/ahmed-nabil)
+
 
 <p align="center">
-  <img src="/api/placeholder/100/100" alt="Nilura Logo">
-  <br>
-  <i>Elevating your fashion experience online.</i>
+  Made with ❤️ by Ahmed Nabil
 </p>
